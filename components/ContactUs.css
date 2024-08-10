@@ -1,0 +1,84 @@
+/* src/components/ContactUs.css */
+.contact-us {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    height: 200vh;
+    background-color: antiquewhite;
+  }
+  
+  .contact-us h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    
+  }
+  
+  .contact-us label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: calc();
+  }
+  
+  .contact-us button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-us button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-us .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  .contact-us .address {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-us .address h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .contact-us .address p {
+    margin: 5px 0;
+  }
+  
+  .contact-us .additional-info {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-us .additional-info h2 {
+    margin-top: 4;
+    text-align: center;
+  }
+  
+  .contact-us .additional-info p {
+    margin: 29px 0;
+  }
+
+  
+  
