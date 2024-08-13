@@ -1,0 +1,52 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/images/bghome.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  font-family: "Raleway", sans-serif;
+  font-size: 82px;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(90, 76, 220);
+  text-shadow: 1px 1px 2px rgba(8, 8, 8, 0.7); /* Optional: Adds a slight shadow for better readability */
+}
+
+.title {
+  margin-right: 600px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+  justify-content: center;
+  margin-bottom: 320px;
+  margin-right: 600px;
+  font-family:  serif;
+  font-style: Garamond;
+  margin-top: -20px;
+  font-weight: 100;
+}
+
+.book-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

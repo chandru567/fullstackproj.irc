@@ -1,0 +1,111 @@
+/* Header.css */
+
+/* General header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+}
+
+/* Styling for the logo section */
+.logo {
+  /* Add logo styles here, such as width and height */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation styling */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for navigation links */
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.nav a:hover {
+  color: #004cff; /* Change to your preferred hover color */
+}
+
+/* User menu styling */
+.user-menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* User icon styling */
+.user-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+/* User details styling */
+.user-details {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* User email styling */
+.user-email {
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+/* Dropdown menu styling */
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+/* Dropdown link styling */
+.dropdown-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-link:hover {
+  color: #ffcc00; /* Change to your preferred hover color */
+}
+
+/* Logout button styling */
+.logout-button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for logout button */
+.logout-button:hover {
+  background: darkred;
+}
